@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Deep indigo accent — nav, headers, primary actions, links */
+  --color-navy-950: #1e1b4b;
+  --color-navy-900: #312e81;
+  --color-navy-800: #3730a3;
+  --color-navy-700: #4338ca;
+  --color-navy-600: #4f46e5;
+  --color-navy-500: #6366f1;
+  --color-navy-100: #e0e7ff;
+  --color-navy-50: #eef2ff;
+
+  /* Slate neutrals — text, borders, muted surfaces */
+  --color-slate-900: #0f172a;
+  --color-slate-700: #334155;
+  --color-slate-600: #475569;
+  --color-slate-400: #94a3b8;
+  --color-slate-200: #e2e8f0;
+  --color-slate-100: #f1f5f9;
+  --color-slate-50: #f8fafc;
+
+  /* Single warm highlight — alerts, statutory flags, staleness */
+  --color-warm-800: #92400e;
+  --color-warm-700: #b45309;
+  --color-warm-600: #d97706;
+  --color-warm-100: #fef3c7;
+  --color-warm-50: #fffbeb;
+}
+
+body {
+  /* Soft indigo/lavender wash, echoing the marketing site's hero gradient —
+     kept low-opacity so it reads behind cards/tables without fighting them
+     for attention. Header/Sidebar sit on top as opaque white, same as the
+     reference's nav bar over its gradient hero. */
+  background:
+    radial-gradient(1200px circle at 10% -15%, rgba(99, 102, 241, 0.30), transparent 48%),
+    radial-gradient(1000px circle at 95% 0%, rgba(167, 139, 250, 0.24), transparent 50%),
+    radial-gradient(1100px circle at 45% 110%, rgba(129, 140, 248, 0.18), transparent 55%),
+    var(--background);
+  background-attachment: fixed;
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}

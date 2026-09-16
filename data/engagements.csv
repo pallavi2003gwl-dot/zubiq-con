@@ -1,0 +1,229 @@
+engagement_id,client_id,sub_service_id,service_id,service_category,sub_service_name,start_date,annual_fee_inr,billing_frequency,status
+EN0001,CL001,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-09-21,52500,Annual,Active
+EN0002,CL001,SS0201,SVC02,GST,GST Registration,2025-10-14,9500,One-time,Active
+EN0003,CL001,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2024-11-14,63000,One-time,Active
+EN0004,CL001,SS0402,SVC04,Incorporation,LLP Registration,2025-09-25,29500,One-time,Active
+EN0005,CL001,SS0403,SVC04,Incorporation,ROC Annual Filings,2024-03-17,24500,Annual,Active
+EN0006,CL001,SS0504,SVC05,Audit,Stock & Inventory Audit,2024-07-21,49500,Annual,Active
+EN0007,CL001,SS0601,SVC06,Virtual CFO,Budgeting & Forecasting,2024-03-26,118500,Annual,Active
+EN0008,CL002,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2021-09-10,23000,Annual,Active
+EN0009,CL002,SS0201,SVC02,GST,GST Registration,2022-10-26,4000,One-time,Active
+EN0010,CL002,SS0103,SVC01,Taxation,TDS / TCS Compliance,2023-02-19,20500,Annual,Active
+EN0011,CL002,SS0501,SVC05,Audit,Statutory Audit,2025-04-17,45000,Annual,Active
+EN0012,CL003,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-02-13,21500,Annual,Active
+EN0013,CL003,SS0201,SVC02,GST,GST Registration,2026-03-22,7500,One-time,Active
+EN0014,CL003,SS0101,SVC01,Taxation,Income Tax Return Filing,2023-10-13,12500,Annual,Active
+EN0015,CL003,SS0103,SVC01,Taxation,TDS / TCS Compliance,2026-01-12,22000,Annual,Active
+EN0016,CL004,SS0101,SVC01,Taxation,Income Tax Return Filing,2024-08-17,8000,Annual,Active
+EN0017,CL004,SS0102,SVC01,Taxation,Advance Tax Planning,2023-05-12,14000,Annual,Active
+EN0018,CL005,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-12-03,26000,Annual,Active
+EN0019,CL005,SS0101,SVC01,Taxation,Income Tax Return Filing,2025-06-29,12500,Annual,Active
+EN0020,CL005,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2026-06-22,31500,Annual,Active
+EN0021,CL005,SS0303,SVC03,Bookkeeping,Payroll Processing,2023-04-07,31000,Annual,Active
+EN0022,CL005,SS0305,SVC03,Bookkeeping,Bank Reconciliation,2022-11-09,8000,Annual,Active
+EN0023,CL005,SS0401,SVC04,Incorporation,Private Limited / OPC Registration,2024-03-23,13500,One-time,Active
+EN0024,CL005,SS0404,SVC04,Incorporation,DIN / DSC & Statutory Registers,2023-03-30,9000,Annual,Active
+EN0025,CL006,SS0101,SVC01,Taxation,Income Tax Return Filing,2022-04-21,7500,Annual,Active
+EN0026,CL006,SS0105,SVC01,Taxation,NRI Taxation & Capital Gains,2024-10-05,19500,Annual,Active
+EN0027,CL007,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2024-10-27,22500,Annual,Lapsed
+EN0028,CL007,SS0201,SVC02,GST,GST Registration,2024-02-09,5500,One-time,Lapsed
+EN0029,CL007,SS0101,SVC01,Taxation,Income Tax Return Filing,2026-07-31,11000,Annual,Lapsed
+EN0030,CL008,SS0101,SVC01,Taxation,Income Tax Return Filing,2022-12-05,10500,Annual,Active
+EN0031,CL008,SS0102,SVC01,Taxation,Advance Tax Planning,2021-06-05,12500,Annual,Active
+EN0032,CL009,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-05-26,40000,Annual,Active
+EN0033,CL009,SS0201,SVC02,GST,GST Registration,2023-06-25,8000,One-time,Active
+EN0034,CL009,SS0203,SVC02,GST,GST Annual Return & Reconciliation,2023-03-12,21500,Annual,Active
+EN0035,CL009,SS0101,SVC01,Taxation,Income Tax Return Filing,2026-02-12,15000,Annual,Active
+EN0036,CL009,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2026-05-18,41000,Annual,Active
+EN0037,CL009,SS0303,SVC03,Bookkeeping,Payroll Processing,2022-05-19,43000,Annual,Active
+EN0038,CL009,SS0601,SVC06,Virtual CFO,Budgeting & Forecasting,2024-07-01,103500,Annual,Active
+EN0039,CL010,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2021-07-21,30500,Annual,Active
+EN0040,CL010,SS0204,SVC02,GST,E-invoicing & E-way Bill Setup,2024-06-29,22500,One-time,Active
+EN0041,CL010,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2024-12-07,31500,One-time,Active
+EN0042,CL010,SS0502,SVC05,Audit,Tax Audit u/s 44AB,2024-12-12,48500,Annual,Active
+EN0043,CL010,SS0504,SVC05,Audit,Stock & Inventory Audit,2023-11-09,44500,Annual,Active
+EN0044,CL011,SS0101,SVC01,Taxation,Income Tax Return Filing,2022-12-04,11500,Annual,Active
+EN0045,CL011,SS0104,SVC01,Taxation,Income Tax Notices & Assessments,2023-10-17,14000,One-time,Active
+EN0046,CL012,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2024-01-14,21500,Annual,Active
+EN0047,CL012,SS0103,SVC01,Taxation,TDS / TCS Compliance,2025-08-11,23500,Annual,Active
+EN0048,CL012,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2023-12-19,31000,Annual,Active
+EN0049,CL012,SS0403,SVC04,Incorporation,ROC Annual Filings,2025-03-18,17500,Annual,Active
+EN0050,CL013,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-07-21,20500,Annual,Active
+EN0051,CL013,SS0101,SVC01,Taxation,Income Tax Return Filing,2025-03-16,9500,Annual,Active
+EN0052,CL013,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2026-05-08,25500,Annual,Active
+EN0053,CL014,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-05-11,26000,Annual,Active
+EN0054,CL014,SS0201,SVC02,GST,GST Registration,2026-02-16,6500,One-time,Active
+EN0055,CL014,SS0101,SVC01,Taxation,Income Tax Return Filing,2022-04-24,15500,Annual,Active
+EN0056,CL014,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2022-07-14,48500,Annual,Active
+EN0057,CL014,SS0302,SVC03,Bookkeeping,Financial Statement Preparation,2021-11-08,18000,Annual,Active
+EN0058,CL015,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2023-11-05,25500,Annual,Active
+EN0059,CL015,SS0201,SVC02,GST,GST Registration,2025-02-03,5000,One-time,Active
+EN0060,CL015,SS0101,SVC01,Taxation,Income Tax Return Filing,2025-07-03,12500,Annual,Active
+EN0061,CL015,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2023-05-11,47500,Annual,Active
+EN0062,CL015,SS0305,SVC03,Bookkeeping,Bank Reconciliation,2025-09-07,10000,Annual,Active
+EN0063,CL016,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-07-06,33000,Annual,Active
+EN0064,CL016,SS0101,SVC01,Taxation,Income Tax Return Filing,2025-09-21,12000,Annual,Active
+EN0065,CL016,SS0401,SVC04,Incorporation,Private Limited / OPC Registration,2024-07-21,15500,One-time,Active
+EN0066,CL016,SS0501,SVC05,Audit,Statutory Audit,2024-04-01,53500,Annual,Active
+EN0067,CL017,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2023-02-23,33000,Annual,Active
+EN0068,CL017,SS0201,SVC02,GST,GST Registration,2024-06-14,9000,One-time,Active
+EN0069,CL017,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2024-01-06,56500,One-time,Active
+EN0070,CL017,SS0101,SVC01,Taxation,Income Tax Return Filing,2021-07-16,15000,Annual,Active
+EN0071,CL017,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2022-08-17,50000,Annual,Active
+EN0072,CL017,SS0303,SVC03,Bookkeeping,Payroll Processing,2023-01-08,53500,Annual,Active
+EN0073,CL017,SS0401,SVC04,Incorporation,Private Limited / OPC Registration,2022-12-04,26000,One-time,Active
+EN0074,CL017,SS0404,SVC04,Incorporation,DIN / DSC & Statutory Registers,2025-06-14,11000,Annual,Active
+EN0075,CL017,SS0405,SVC04,Incorporation,Startup India Recognition,2023-04-27,28000,One-time,Active
+EN0076,CL017,SS0501,SVC05,Audit,Statutory Audit,2026-08-11,94000,Annual,Active
+EN0077,CL018,SS0101,SVC01,Taxation,Income Tax Return Filing,2026-07-09,8500,Annual,Lapsed
+EN0078,CL019,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-06-26,35500,Annual,Active
+EN0079,CL019,SS0203,SVC02,GST,GST Annual Return & Reconciliation,2025-08-30,21500,Annual,Active
+EN0080,CL019,SS0101,SVC01,Taxation,Income Tax Return Filing,2026-02-24,18500,Annual,Active
+EN0081,CL019,SS0102,SVC01,Taxation,Advance Tax Planning,2022-03-08,21500,Annual,Active
+EN0082,CL019,SS0103,SVC01,Taxation,TDS / TCS Compliance,2022-10-15,23500,Annual,Active
+EN0083,CL019,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2026-03-09,49000,Annual,Active
+EN0084,CL019,SS0504,SVC05,Audit,Stock & Inventory Audit,2024-07-11,53000,Annual,Active
+EN0085,CL020,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2024-02-05,30000,Annual,Active
+EN0086,CL021,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-06-26,20000,Annual,Active
+EN0087,CL021,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2023-01-02,24500,One-time,Active
+EN0088,CL021,SS0504,SVC05,Audit,Stock & Inventory Audit,2024-12-17,37000,Annual,Active
+EN0089,CL022,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-09-21,35000,Annual,Active
+EN0090,CL022,SS0201,SVC02,GST,GST Registration,2026-07-07,9500,One-time,Active
+EN0091,CL022,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2024-09-15,65000,One-time,Active
+EN0092,CL022,SS0101,SVC01,Taxation,Income Tax Return Filing,2026-08-31,18500,Annual,Active
+EN0093,CL022,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2024-07-20,87000,Annual,Active
+EN0094,CL022,SS0501,SVC05,Audit,Statutory Audit,2021-07-08,133500,Annual,Active
+EN0095,CL022,SS0502,SVC05,Audit,Tax Audit u/s 44AB,2021-07-04,93000,Annual,Active
+EN0096,CL022,SS0605,SVC06,Virtual CFO,Working Capital Planning,2025-06-21,83500,Annual,Active
+EN0097,CL023,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2024-06-16,24500,Annual,Active
+EN0098,CL023,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2024-09-22,30500,One-time,Active
+EN0099,CL023,SS0101,SVC01,Taxation,Income Tax Return Filing,2023-04-24,14500,Annual,Active
+EN0100,CL023,SS0102,SVC01,Taxation,Advance Tax Planning,2025-05-23,16000,Annual,Active
+EN0101,CL023,SS0505,SVC05,Audit,Due Diligence,2021-07-22,67500,One-time,Active
+EN0102,CL024,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-07-16,36500,Annual,Active
+EN0103,CL024,SS0201,SVC02,GST,GST Registration,2022-08-18,7500,One-time,Active
+EN0104,CL024,SS0203,SVC02,GST,GST Annual Return & Reconciliation,2025-11-01,22000,Annual,Active
+EN0105,CL024,SS0204,SVC02,GST,E-invoicing & E-way Bill Setup,2024-07-15,24000,One-time,Active
+EN0106,CL025,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-06-14,41500,Annual,Active
+EN0107,CL025,SS0201,SVC02,GST,GST Registration,2023-02-21,7500,One-time,Active
+EN0108,CL025,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2025-02-23,46500,Annual,Active
+EN0109,CL025,SS0302,SVC03,Bookkeeping,Financial Statement Preparation,2022-05-20,37000,Annual,Active
+EN0110,CL025,SS0303,SVC03,Bookkeeping,Payroll Processing,2022-01-01,44500,Annual,Active
+EN0111,CL026,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2024-09-24,16000,Annual,Active
+EN0112,CL026,SS0201,SVC02,GST,GST Registration,2026-06-05,4500,One-time,Active
+EN0113,CL026,SS0101,SVC01,Taxation,Income Tax Return Filing,2026-04-28,8000,Annual,Active
+EN0114,CL026,SS0103,SVC01,Taxation,TDS / TCS Compliance,2022-06-05,14000,Annual,Active
+EN0115,CL027,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-03-19,32500,Annual,Active
+EN0116,CL027,SS0101,SVC01,Taxation,Income Tax Return Filing,2026-06-18,14500,Annual,Active
+EN0117,CL027,SS0103,SVC01,Taxation,TDS / TCS Compliance,2024-10-05,16500,Annual,Active
+EN0118,CL027,SS0402,SVC04,Incorporation,LLP Registration,2024-06-29,12000,One-time,Active
+EN0119,CL028,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-02-24,38000,Annual,Active
+EN0120,CL028,SS0201,SVC02,GST,GST Registration,2021-06-30,12500,One-time,Active
+EN0121,CL028,SS0101,SVC01,Taxation,Income Tax Return Filing,2022-01-24,27500,Annual,Active
+EN0122,CL028,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2026-04-16,53500,Annual,Active
+EN0123,CL028,SS0305,SVC03,Bookkeeping,Bank Reconciliation,2022-11-17,25000,Annual,Active
+EN0124,CL028,SS0501,SVC05,Audit,Statutory Audit,2021-12-30,131000,Annual,Active
+EN0125,CL028,SS0502,SVC05,Audit,Tax Audit u/s 44AB,2025-04-23,65000,Annual,Active
+EN0126,CL028,SS0503,SVC05,Audit,Internal Audit,2023-12-27,113000,Annual,Active
+EN0127,CL029,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2024-08-28,33000,Annual,Active
+EN0128,CL029,SS0201,SVC02,GST,GST Registration,2024-06-14,5000,One-time,Active
+EN0129,CL029,SS0101,SVC01,Taxation,Income Tax Return Filing,2023-11-01,9500,Annual,Active
+EN0130,CL029,SS0103,SVC01,Taxation,TDS / TCS Compliance,2022-01-05,16000,Annual,Active
+EN0131,CL029,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2021-11-17,44000,Annual,Active
+EN0132,CL029,SS0302,SVC03,Bookkeeping,Financial Statement Preparation,2023-07-09,17500,Annual,Active
+EN0133,CL030,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-10-18,20500,Annual,Active
+EN0134,CL030,SS0101,SVC01,Taxation,Income Tax Return Filing,2024-12-11,17000,Annual,Active
+EN0135,CL030,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2022-05-31,35000,Annual,Active
+EN0136,CL030,SS0302,SVC03,Bookkeeping,Financial Statement Preparation,2021-09-23,20000,Annual,Active
+EN0137,CL030,SS0303,SVC03,Bookkeeping,Payroll Processing,2025-11-12,30500,Annual,Active
+EN0138,CL030,SS0501,SVC05,Audit,Statutory Audit,2021-06-27,83000,Annual,Active
+EN0139,CL031,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2021-10-25,20000,Annual,Active
+EN0140,CL031,SS0101,SVC01,Taxation,Income Tax Return Filing,2025-12-19,10000,Annual,Active
+EN0141,CL031,SS0103,SVC01,Taxation,TDS / TCS Compliance,2021-10-26,16000,Annual,Active
+EN0142,CL032,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-05-17,24000,Annual,Active
+EN0143,CL032,SS0201,SVC02,GST,GST Registration,2025-10-26,8000,One-time,Active
+EN0144,CL032,SS0101,SVC01,Taxation,Income Tax Return Filing,2021-11-07,13500,Annual,Active
+EN0145,CL032,SS0103,SVC01,Taxation,TDS / TCS Compliance,2023-02-15,24000,Annual,Active
+EN0146,CL032,SS0401,SVC04,Incorporation,Private Limited / OPC Registration,2025-09-19,23500,One-time,Active
+EN0147,CL032,SS0501,SVC05,Audit,Statutory Audit,2025-03-05,74000,Annual,Active
+EN0148,CL033,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-08-24,17000,Annual,Active
+EN0149,CL033,SS0103,SVC01,Taxation,TDS / TCS Compliance,2022-05-16,16500,Annual,Active
+EN0150,CL034,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-07-09,20000,Annual,Active
+EN0151,CL034,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2024-11-14,30000,One-time,Active
+EN0152,CL034,SS0101,SVC01,Taxation,Income Tax Return Filing,2021-11-06,12000,Annual,Active
+EN0153,CL034,SS0103,SVC01,Taxation,TDS / TCS Compliance,2024-05-14,22500,Annual,Active
+EN0154,CL034,SS0402,SVC04,Incorporation,LLP Registration,2026-05-15,13500,One-time,Active
+EN0155,CL035,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2023-08-14,25500,Annual,Active
+EN0156,CL035,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2025-12-24,38000,Annual,Active
+EN0157,CL035,SS0305,SVC03,Bookkeeping,Bank Reconciliation,2024-02-13,19000,Annual,Active
+EN0158,CL035,SS0401,SVC04,Incorporation,Private Limited / OPC Registration,2025-04-25,34000,One-time,Active
+EN0159,CL035,SS0502,SVC05,Audit,Tax Audit u/s 44AB,2022-07-29,56500,Annual,Active
+EN0160,CL035,SS0505,SVC05,Audit,Due Diligence,2024-07-31,99500,One-time,Active
+EN0161,CL036,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2023-03-10,33000,Annual,Active
+EN0162,CL036,SS0103,SVC01,Taxation,TDS / TCS Compliance,2024-02-06,23000,Annual,Active
+EN0163,CL036,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2022-07-13,50000,Annual,Active
+EN0164,CL036,SS0401,SVC04,Incorporation,Private Limited / OPC Registration,2024-04-21,22000,One-time,Active
+EN0165,CL036,SS0403,SVC04,Incorporation,ROC Annual Filings,2022-09-12,20500,Annual,Active
+EN0166,CL036,SS0404,SVC04,Incorporation,DIN / DSC & Statutory Registers,2024-02-03,10000,Annual,Active
+EN0167,CL036,SS0405,SVC04,Incorporation,Startup India Recognition,2021-08-25,29000,One-time,Active
+EN0168,CL036,SS0501,SVC05,Audit,Statutory Audit,2023-07-01,70500,Annual,Active
+EN0169,CL037,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2026-08-04,57000,Annual,Active
+EN0170,CL037,SS0203,SVC02,GST,GST Annual Return & Reconciliation,2025-05-28,40000,Annual,Active
+EN0171,CL037,SS0204,SVC02,GST,E-invoicing & E-way Bill Setup,2025-12-30,31000,One-time,Active
+EN0172,CL037,SS0101,SVC01,Taxation,Income Tax Return Filing,2021-12-11,18000,Annual,Active
+EN0173,CL037,SS0502,SVC05,Audit,Tax Audit u/s 44AB,2022-12-30,98500,Annual,Active
+EN0174,CL038,SS0101,SVC01,Taxation,Income Tax Return Filing,2024-07-28,11500,Annual,Lapsed
+EN0175,CL039,SS0101,SVC01,Taxation,Income Tax Return Filing,2022-10-30,7000,Annual,Active
+EN0176,CL040,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2023-12-09,38000,Annual,Active
+EN0177,CL040,SS0204,SVC02,GST,E-invoicing & E-way Bill Setup,2023-09-11,15000,One-time,Active
+EN0178,CL040,SS0101,SVC01,Taxation,Income Tax Return Filing,2025-03-05,19500,Annual,Active
+EN0179,CL040,SS0103,SVC01,Taxation,TDS / TCS Compliance,2021-06-30,21500,Annual,Active
+EN0180,CL040,SS0504,SVC05,Audit,Stock & Inventory Audit,2023-12-05,64000,Annual,Active
+EN0181,CL041,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2023-09-04,23500,Annual,Active
+EN0182,CL041,SS0101,SVC01,Taxation,Income Tax Return Filing,2024-03-05,10500,Annual,Active
+EN0183,CL042,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-04-08,37500,Annual,Active
+EN0184,CL042,SS0203,SVC02,GST,GST Annual Return & Reconciliation,2023-06-05,32500,Annual,Active
+EN0185,CL042,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2026-06-15,52500,Annual,Active
+EN0186,CL042,SS0303,SVC03,Bookkeeping,Payroll Processing,2024-10-08,36500,Annual,Active
+EN0187,CL042,SS0305,SVC03,Bookkeeping,Bank Reconciliation,2023-02-01,15500,Annual,Active
+EN0188,CL042,SS0401,SVC04,Incorporation,Private Limited / OPC Registration,2025-08-13,28000,One-time,Active
+EN0189,CL042,SS0501,SVC05,Audit,Statutory Audit,2025-09-13,66500,Annual,Active
+EN0190,CL042,SS0502,SVC05,Audit,Tax Audit u/s 44AB,2022-08-03,82500,Annual,Active
+EN0191,CL042,SS0504,SVC05,Audit,Stock & Inventory Audit,2022-07-12,51000,Annual,Active
+EN0192,CL043,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-05-06,28000,Annual,Active
+EN0193,CL043,SS0203,SVC02,GST,GST Annual Return & Reconciliation,2022-05-28,22500,Annual,Active
+EN0194,CL043,SS0101,SVC01,Taxation,Income Tax Return Filing,2024-06-06,14000,Annual,Active
+EN0195,CL044,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2025-07-21,24500,Annual,Active
+EN0196,CL044,SS0101,SVC01,Taxation,Income Tax Return Filing,2021-12-13,13000,Annual,Active
+EN0197,CL044,SS0102,SVC01,Taxation,Advance Tax Planning,2025-10-05,20000,Annual,Active
+EN0198,CL045,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2023-11-19,25500,Annual,Active
+EN0199,CL045,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2024-12-07,37000,One-time,Active
+EN0200,CL045,SS0101,SVC01,Taxation,Income Tax Return Filing,2024-12-28,15500,Annual,Active
+EN0201,CL046,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-04-25,22500,Annual,Active
+EN0202,CL046,SS0101,SVC01,Taxation,Income Tax Return Filing,2022-03-23,11500,Annual,Active
+EN0203,CL046,SS0102,SVC01,Taxation,Advance Tax Planning,2023-02-06,18000,Annual,Active
+EN0204,CL046,SS0103,SVC01,Taxation,TDS / TCS Compliance,2022-05-21,17000,Annual,Active
+EN0205,CL046,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2024-11-13,51500,Annual,Active
+EN0206,CL046,SS0303,SVC03,Bookkeeping,Payroll Processing,2023-01-11,31000,Annual,Active
+EN0207,CL046,SS0305,SVC03,Bookkeeping,Bank Reconciliation,2025-02-05,15000,Annual,Active
+EN0208,CL046,SS0505,SVC05,Audit,Due Diligence,2026-06-02,93500,One-time,Active
+EN0209,CL047,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2023-09-17,37000,Annual,Active
+EN0210,CL047,SS0101,SVC01,Taxation,Income Tax Return Filing,2025-09-03,29000,Annual,Active
+EN0211,CL047,SS0102,SVC01,Taxation,Advance Tax Planning,2025-07-23,27500,Annual,Active
+EN0212,CL047,SS0502,SVC05,Audit,Tax Audit u/s 44AB,2023-07-20,88000,Annual,Active
+EN0213,CL047,SS0601,SVC06,Virtual CFO,Budgeting & Forecasting,2021-10-08,91000,Annual,Active
+EN0214,CL048,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2021-09-07,22500,Annual,Active
+EN0215,CL048,SS0201,SVC02,GST,GST Registration,2026-02-16,5000,One-time,Active
+EN0216,CL048,SS0205,SVC02,GST,ITC Review & GST Litigation Support,2023-04-23,29500,One-time,Active
+EN0217,CL048,SS0101,SVC01,Taxation,Income Tax Return Filing,2026-03-26,8000,Annual,Active
+EN0218,CL048,SS0102,SVC01,Taxation,Advance Tax Planning,2024-02-10,12500,Annual,Active
+EN0219,CL048,SS0103,SVC01,Taxation,TDS / TCS Compliance,2026-09-04,13500,Annual,Active
+EN0220,CL048,SS0301,SVC03,Bookkeeping,Monthly Books Closure,2023-06-03,40500,Annual,Active
+EN0221,CL048,SS0302,SVC03,Bookkeeping,Financial Statement Preparation,2022-10-21,15000,Annual,Active
+EN0222,CL048,SS0401,SVC04,Incorporation,Private Limited / OPC Registration,2026-02-01,15000,One-time,Active
+EN0223,CL048,SS0501,SVC05,Audit,Statutory Audit,2022-12-11,65500,Annual,Active
+EN0224,CL049,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2022-08-21,32000,Annual,Active
+EN0225,CL049,SS0201,SVC02,GST,GST Registration,2022-12-05,8500,One-time,Active
+EN0226,CL049,SS0103,SVC01,Taxation,TDS / TCS Compliance,2024-09-20,22000,Annual,Active
+EN0227,CL049,SS0403,SVC04,Incorporation,ROC Annual Filings,2024-03-07,13000,Annual,Active
+EN0228,CL050,SS0202,SVC02,GST,Monthly / Quarterly GST Returns,2024-08-09,26500,Annual,Lapsed

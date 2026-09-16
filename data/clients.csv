@@ -1,0 +1,51 @@
+client_id,client_name,industry,entity_type,city,annual_turnover_band,onboarded_date,relationship_owner,status
+CL001,Cobalt Interiors,Retail & Trading,LLP,Faridabad,10Cr+,2021-06-28,Neha Bansal,Active
+CL002,Fernway Retail,Healthcare,Private Limited,Faridabad,Under 50L,2024-06-05,Satyam Gahoi,Active
+CL003,Everline Industries,Healthcare,Partnership,Ghaziabad,50L - 2Cr,2024-10-11,Satyam Gahoi,Active
+CL004,Sandeep Aggarwal,Professional Services,Individual / HUF,Ghaziabad,NA (Individual),2024-02-12,Neha Bansal,Active
+CL005,Terrace Solutions,IT & Software,Private Limited,Noida,Under 50L,2022-12-01,Amit Verma,Active
+CL006,Priya Malhotra,Professional Services,Individual / HUF,Greater Noida,NA (Individual),2024-06-06,Satyam Gahoi,Active
+CL007,Udaan Technologies,Education,LLP,Noida,50L - 2Cr,2022-12-14,Neha Bansal,Dormant
+CL008,Sahil Sethi,Professional Services,Individual / HUF,Ghaziabad,NA (Individual),2021-05-23,Ritika Sharma,Active
+CL009,Sanchay Foods,Manufacturing,Proprietorship,Faridabad,2Cr - 10Cr,2025-09-08,Satyam Gahoi,Active
+CL010,Pinewood Logistics,Manufacturing,Private Limited,Delhi,2Cr - 10Cr,2023-09-04,Satyam Gahoi,Active
+CL011,Rohit Rastogi,Professional Services,Individual / HUF,Delhi,NA (Individual),2021-09-26,Ritika Sharma,Active
+CL012,Nimbus Ventures,Manufacturing,LLP,Gurugram,50L - 2Cr,2026-01-18,Amit Verma,Active
+CL013,Lodestar Retail,Retail & Trading,LLP,Noida,Under 50L,2022-04-01,Amit Verma,Active
+CL014,Apex Systems,Logistics,Proprietorship,Gurugram,50L - 2Cr,2021-06-27,Satyam Gahoi,Active
+CL015,Mandala Enterprises,Manufacturing,Proprietorship,Greater Noida,50L - 2Cr,2024-09-21,Neha Bansal,Active
+CL016,Trinity Infra,Logistics,Private Limited,Delhi,50L - 2Cr,2026-03-09,Ritika Sharma,Active
+CL017,Sanchay Technologies,Retail & Trading,Private Limited,Delhi,2Cr - 10Cr,2023-01-24,Neha Bansal,Active
+CL018,Sunita Jain,Professional Services,Individual / HUF,Noida,NA (Individual),2021-10-16,Neha Bansal,Dormant
+CL019,Northgate Industries,Logistics,Proprietorship,Ghaziabad,2Cr - 10Cr,2026-05-17,Satyam Gahoi,Active
+CL020,Northgate Systems,Healthcare,Proprietorship,Delhi,50L - 2Cr,2023-07-06,Amit Verma,Active
+CL021,Apex Healthcare,Logistics,Proprietorship,Ghaziabad,50L - 2Cr,2021-12-07,Amit Verma,Active
+CL022,Fernway Ventures,IT & Software,Private Limited,Greater Noida,10Cr+,2023-06-30,Amit Verma,Active
+CL023,Lodestar Labs,Hospitality,Proprietorship,Ghaziabad,50L - 2Cr,2025-04-21,Ritika Sharma,Active
+CL024,Everline Infra,Retail & Trading,Proprietorship,Delhi,2Cr - 10Cr,2023-02-22,Ritika Sharma,Active
+CL025,Everline Retail,E-commerce & D2C,LLP,Delhi,2Cr - 10Cr,2025-03-09,Neha Bansal,Active
+CL026,Sanchay Traders,Retail & Trading,Private Limited,Gurugram,Under 50L,2026-06-13,Neha Bansal,Active
+CL027,Quill Healthcare,Healthcare,LLP,Noida,50L - 2Cr,2025-08-02,Ritika Sharma,Active
+CL028,Vertex Foods,Healthcare,Private Limited,Gurugram,10Cr+,2023-05-13,Ritika Sharma,Active
+CL029,Anvaya Interiors,Education,Proprietorship,Ghaziabad,50L - 2Cr,2025-08-29,Ritika Sharma,Active
+CL030,Udaan Infra,E-commerce & D2C,Private Limited,Faridabad,50L - 2Cr,2021-05-21,Neha Bansal,Active
+CL031,Cobalt Retail,Education,Proprietorship,Faridabad,Under 50L,2025-01-13,Amit Verma,Active
+CL032,Ironwood Logistics,Healthcare,Private Limited,Greater Noida,50L - 2Cr,2023-11-14,Satyam Gahoi,Active
+CL033,Cobalt Healthcare,Logistics,Proprietorship,Delhi,Under 50L,2024-07-11,Amit Verma,Active
+CL034,Anvaya Technologies,Hospitality,LLP,Gurugram,50L - 2Cr,2024-09-07,Ritika Sharma,Active
+CL035,Prakhar Healthcare,Manufacturing,Private Limited,Delhi,2Cr - 10Cr,2021-01-08,Amit Verma,Active
+CL036,Ashwath Technologies,Logistics,Private Limited,Faridabad,50L - 2Cr,2022-07-14,Satyam Gahoi,Active
+CL037,Lodestar Ventures,Real Estate,Proprietorship,Greater Noida,10Cr+,2025-12-16,Satyam Gahoi,Active
+CL038,Preeti Sethi,Professional Services,Individual / HUF,Noida,NA (Individual),2023-09-25,Neha Bansal,Dormant
+CL039,Akash Gupta,Professional Services,Individual / HUF,Faridabad,NA (Individual),2021-01-14,Satyam Gahoi,Active
+CL040,Quill Solutions,Retail & Trading,Proprietorship,Gurugram,2Cr - 10Cr,2025-11-15,Amit Verma,Active
+CL041,Bluegrass Interiors,E-commerce & D2C,Partnership,Delhi,Under 50L,2026-04-18,Neha Bansal,Active
+CL042,Prakhar Solutions,Logistics,Private Limited,Noida,2Cr - 10Cr,2021-06-22,Amit Verma,Active
+CL043,Sanchay Solutions,Retail & Trading,Private Limited,Faridabad,2Cr - 10Cr,2024-07-30,Ritika Sharma,Active
+CL044,Sable Ventures,E-commerce & D2C,Partnership,Gurugram,50L - 2Cr,2025-09-11,Amit Verma,Active
+CL045,Sanchay Retail,Education,Private Limited,Gurugram,50L - 2Cr,2026-04-14,Ritika Sharma,Active
+CL046,Pinewood Retail,Professional Services,Proprietorship,Ghaziabad,50L - 2Cr,2025-11-28,Amit Verma,Active
+CL047,Sable Enterprises,IT & Software,Proprietorship,Greater Noida,10Cr+,2023-01-16,Ritika Sharma,Active
+CL048,Vertex Logistics,Professional Services,Private Limited,Noida,Under 50L,2026-05-06,Neha Bansal,Active
+CL049,Shubham Traders,Manufacturing,LLP,Gurugram,50L - 2Cr,2025-01-29,Amit Verma,Active
+CL050,Saarthi Retail,Education,Proprietorship,Faridabad,Under 50L,2022-02-24,Satyam Gahoi,Dormant

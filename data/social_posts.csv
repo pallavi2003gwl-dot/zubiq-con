@@ -1,0 +1,88 @@
+post_id,post_date,platform,service_category,sub_service_id,sub_service_name,content_format,topic,reach,impressions,engagements,link_clicks,saves,is_paid,spend_inr
+SP083,2026-04-01,LinkedIn,GST,SS0201,GST Registration,Reel,When GST registration becomes mandatory,2504,3721,101,42,17,No,0
+SP013,2026-04-10,Instagram,Incorporation,SS0401,Private Limited / OPC Registration,Carousel,Pvt Ltd vs OPC: which fits you,5596,8007,182,87,22,Yes,7000
+SP043,2026-04-10,Facebook,Taxation,SS0105,NRI Taxation & Capital Gains,Reel,NRI selling property in India,2210,3041,103,30,9,No,0
+SP019,2026-04-11,Instagram,Incorporation,SS0402,LLP Registration,Carousel,LLP vs Pvt Ltd for a services firm,6136,10112,153,81,13,No,0
+SP051,2026-04-11,Instagram,Taxation,SS0104,Income Tax Notices & Assessments,Story,What a scrutiny notice really means,2096,3135,91,41,11,No,0
+SP049,2026-04-12,LinkedIn,Taxation,SS0104,Income Tax Notices & Assessments,Carousel,Got a 143(1) notice? Read this,3113,4275,118,56,11,No,0
+SP001,2026-04-14,Instagram,Incorporation,SS0401,Private Limited / OPC Registration,Carousel,Pvt Ltd vs OPC: which fits you,7047,10399,147,121,23,No,0
+SP023,2026-04-15,Instagram,Incorporation,SS0405,Startup India Recognition,Article,DPIIT recognition in 6 steps,5264,8487,169,90,34,No,0
+SP026,2026-04-16,Instagram,Incorporation,SS0405,Startup India Recognition,Reel,DPIIT recognition in 6 steps,5609,7065,180,63,34,No,0
+SP017,2026-04-23,Instagram,Incorporation,SS0402,LLP Registration,Article,LLP vs Pvt Ltd for a services firm,5066,8657,100,46,21,No,0
+SP021,2026-04-25,LinkedIn,Incorporation,SS0402,LLP Registration,Article,"LLP registration, start to finish",5190,6392,104,69,18,Yes,2500
+SP053,2026-04-27,LinkedIn,Taxation,SS0102,Advance Tax Planning,Static Post,Why you paid interest under 234B,2628,4486,109,50,16,No,0
+SP048,2026-04-28,LinkedIn,Taxation,SS0105,NRI Taxation & Capital Gains,Static Post,NRO vs NRE: the tax difference,2460,3318,104,72,12,No,0
+SP050,2026-05-03,Facebook,Taxation,SS0104,Income Tax Notices & Assessments,Story,What a scrutiny notice really means,2238,3355,63,46,13,Yes,8000
+SP003,2026-05-06,LinkedIn,Incorporation,SS0401,Private Limited / OPC Registration,Carousel,Pvt Ltd vs OPC: which fits you,3503,4811,114,41,16,No,0
+SP029,2026-05-08,Instagram,Incorporation,SS0403,ROC Annual Filings,Reel,Penalties for a missed ROC return,945,1431,20,6,1,No,0
+SP066,2026-05-08,LinkedIn,Virtual CFO,SS0604,Investor & MIS Reporting,Article,Reading your MIS in 5 minutes,2045,3457,167,63,13,Yes,6500
+SP018,2026-05-10,Instagram,Incorporation,SS0402,LLP Registration,Static Post,"LLP registration, start to finish",5426,8465,147,65,24,No,0
+SP052,2026-05-12,LinkedIn,Taxation,SS0104,Income Tax Notices & Assessments,Reel,What a scrutiny notice really means,3557,5771,142,56,20,No,0
+SP087,2026-05-15,Instagram,Audit,SS0501,Statutory Audit,Article,What statutory auditors actually check,1233,1948,24,15,3,No,0
+SP028,2026-05-18,LinkedIn,Incorporation,SS0405,Startup India Recognition,Story,Startup India benefits explained,4821,5568,98,99,18,No,0
+SP034,2026-05-18,LinkedIn,Taxation,SS0101,Income Tax Return Filing,Static Post,Filing with two Form 16s,2403,3238,78,30,6,No,0
+SP035,2026-05-18,LinkedIn,Taxation,SS0101,Income Tax Return Filing,Static Post,Filing with two Form 16s,3409,5423,91,50,7,No,0
+SP030,2026-05-20,Facebook,Incorporation,SS0403,ROC Annual Filings,Story,The ROC filing everyone forgets,1531,2360,28,9,6,Yes,7000
+SP045,2026-05-20,LinkedIn,Taxation,SS0105,NRI Taxation & Capital Gains,Article,NRO vs NRE: the tax difference,2318,3321,81,45,13,No,0
+SP067,2026-05-20,LinkedIn,Virtual CFO,SS0602,Business Valuation,Article,Valuation before an ESOP grant,2829,4034,217,108,22,No,0
+SP074,2026-05-21,Instagram,Bookkeeping,SS0303,Payroll Processing,Carousel,Payroll and PF without the headache,1433,2036,39,15,5,Yes,5500
+SP082,2026-05-22,LinkedIn,GST,SS0201,GST Registration,Story,When GST registration becomes mandatory,1907,2844,65,49,10,No,0
+SP033,2026-05-26,Instagram,Taxation,SS0101,Income Tax Return Filing,Reel,Filing with two Form 16s,3059,5295,108,47,8,No,0
+SP079,2026-05-26,Facebook,GST,SS0202,Monthly / Quarterly GST Returns,Reel,Late GST filing: what it costs,2459,4209,133,62,24,No,0
+SP007,2026-05-28,Instagram,Incorporation,SS0401,Private Limited / OPC Registration,Story,Pvt Ltd vs OPC: which fits you,5061,6444,113,102,18,No,0
+SP031,2026-05-28,Facebook,Taxation,SS0101,Income Tax Return Filing,Article,Filing with two Form 16s,5057,8150,152,110,29,No,0
+SP032,2026-05-28,LinkedIn,Taxation,SS0101,Income Tax Return Filing,Article,Filing with two Form 16s,6149,10319,163,84,29,No,0
+SP014,2026-05-31,Instagram,Incorporation,SS0402,LLP Registration,Static Post,"LLP registration, start to finish",6092,10338,118,76,10,No,0
+SP084,2026-05-31,Facebook,GST,SS0205,ITC Review & GST Litigation Support,Static Post,ITC mismatch: how to fix it,2193,2638,86,62,15,No,0
+SP015,2026-06-02,Facebook,Incorporation,SS0402,LLP Registration,Carousel,LLP vs Pvt Ltd for a services firm,2643,4391,73,46,13,Yes,8000
+SP056,2026-06-03,LinkedIn,Virtual CFO,SS0603,Fund-raise Support,Article,What investors check before a term sheet,3832,4901,333,147,60,Yes,1500
+SP004,2026-06-04,LinkedIn,Incorporation,SS0401,Private Limited / OPC Registration,Article,Register a Pvt Ltd in 10 days,6056,9487,205,110,16,No,0
+SP027,2026-06-14,Facebook,Incorporation,SS0405,Startup India Recognition,Story,Startup India benefits explained,5225,7014,143,91,22,Yes,1500
+SP020,2026-06-18,Facebook,Incorporation,SS0402,LLP Registration,Static Post,"LLP registration, start to finish",4984,7420,132,75,7,No,0
+SP064,2026-06-21,LinkedIn,Virtual CFO,SS0604,Investor & MIS Reporting,Reel,Reading your MIS in 5 minutes,3161,4201,299,125,32,No,0
+SP055,2026-06-24,Facebook,Virtual CFO,SS0603,Fund-raise Support,Static Post,Building a data room in 2 weeks,4245,5579,320,158,40,Yes,5500
+SP071,2026-06-26,Instagram,Bookkeeping,SS0301,Monthly Books Closure,Carousel,Why your books fall behind every quarter,1300,2048,31,12,4,No,0
+SP086,2026-06-26,Facebook,Audit,SS0502,Tax Audit u/s 44AB,Carousel,Tax audit u/s 44AB: who it applies to,693,974,11,7,2,Yes,7500
+SP069,2026-06-30,LinkedIn,Bookkeeping,SS0301,Monthly Books Closure,Article,Why your books fall behind every quarter,2357,2880,62,27,12,No,0
+SP059,2026-07-01,Instagram,Virtual CFO,SS0603,Fund-raise Support,Reel,Building a data room in 2 weeks,2803,3527,204,119,24,No,0
+SP072,2026-07-01,LinkedIn,Bookkeeping,SS0301,Monthly Books Closure,Story,Spreadsheets to real books,1278,2224,34,22,5,No,0
+SP044,2026-07-02,Instagram,Taxation,SS0105,NRI Taxation & Capital Gains,Story,NRO vs NRE: the tax difference,3030,3845,103,73,15,No,0
+SP058,2026-07-07,LinkedIn,Virtual CFO,SS0603,Fund-raise Support,Static Post,What investors check before a term sheet,2998,4807,233,157,37,No,0
+SP080,2026-07-11,LinkedIn,GST,SS0202,Monthly / Quarterly GST Returns,Reel,Late GST filing: what it costs,1437,2327,70,27,14,No,0
+SP047,2026-07-18,LinkedIn,Taxation,SS0105,NRI Taxation & Capital Gains,Reel,NRI selling property in India,4497,6543,182,64,14,No,0
+SP008,2026-07-19,LinkedIn,Incorporation,SS0401,Private Limited / OPC Registration,Article,Pvt Ltd vs OPC: which fits you,6744,8020,176,141,37,Yes,4500
+SP057,2026-07-20,Facebook,Virtual CFO,SS0603,Fund-raise Support,Story,What investors check before a term sheet,2363,2883,257,115,25,No,0
+SP078,2026-07-21,LinkedIn,Bookkeeping,SS0305,Bank Reconciliation,Reel,Bank reconciliation in plain English,1751,2708,54,28,4,No,0
+SP054,2026-07-23,Instagram,Taxation,SS0102,Advance Tax Planning,Carousel,Advance tax in four instalments,2233,2645,111,31,12,No,0
+SP036,2026-07-24,LinkedIn,Taxation,SS0101,Income Tax Return Filing,Story,New vs Old regime: which saves more,4339,5747,110,74,13,No,0
+SP073,2026-07-24,Facebook,Bookkeeping,SS0301,Monthly Books Closure,Reel,Why your books fall behind every quarter,2241,3766,73,34,8,Yes,4000
+SP077,2026-07-24,LinkedIn,Bookkeeping,SS0305,Bank Reconciliation,Static Post,Bank reconciliation in plain English,1006,1734,27,7,1,No,0
+SP065,2026-07-28,LinkedIn,Virtual CFO,SS0604,Investor & MIS Reporting,Static Post,Reading your MIS in 5 minutes,2586,4391,255,120,33,Yes,4000
+SP005,2026-08-02,Facebook,Incorporation,SS0401,Private Limited / OPC Registration,Story,Register a Pvt Ltd in 10 days,7366,11554,231,96,22,No,0
+SP009,2026-08-03,LinkedIn,Incorporation,SS0401,Private Limited / OPC Registration,Story,Pvt Ltd vs OPC: which fits you,7156,11015,152,124,20,Yes,4500
+SP011,2026-08-03,Facebook,Incorporation,SS0401,Private Limited / OPC Registration,Reel,Pvt Ltd vs OPC: which fits you,5170,8630,142,67,12,No,0
+SP076,2026-08-10,Instagram,Bookkeeping,SS0303,Payroll Processing,Carousel,Payroll and PF without the headache,1821,2835,57,22,6,No,0
+SP037,2026-08-12,LinkedIn,Taxation,SS0101,Income Tax Return Filing,Static Post,New vs Old regime: which saves more,4813,8356,210,120,21,No,0
+SP042,2026-08-12,Instagram,Taxation,SS0101,Income Tax Return Filing,Story,ITR deadline reminder,4776,8098,129,86,12,No,0
+SP068,2026-08-17,LinkedIn,Virtual CFO,SS0602,Business Valuation,Carousel,Valuation before an ESOP grant,2137,3301,194,65,33,Yes,3000
+SP010,2026-08-18,LinkedIn,Incorporation,SS0401,Private Limited / OPC Registration,Reel,Register a Pvt Ltd in 10 days,3413,5886,89,38,15,No,0
+SP006,2026-08-20,Instagram,Incorporation,SS0401,Private Limited / OPC Registration,Article,Register a Pvt Ltd in 10 days,3518,4350,104,37,11,No,0
+SP016,2026-08-20,Facebook,Incorporation,SS0402,LLP Registration,Static Post,"LLP registration, start to finish",2928,3749,74,49,5,No,0
+SP060,2026-08-21,LinkedIn,Virtual CFO,SS0601,Budgeting & Forecasting,Story,Cash runway: the only number that matters,3046,4378,315,91,48,No,0
+SP085,2026-08-23,LinkedIn,Audit,SS0502,Tax Audit u/s 44AB,Carousel,Tax audit u/s 44AB: who it applies to,712,996,13,6,1,No,0
+SP012,2026-08-26,LinkedIn,Incorporation,SS0401,Private Limited / OPC Registration,Reel,Pvt Ltd vs OPC: which fits you,3778,5457,110,45,24,Yes,6500
+SP022,2026-08-26,Facebook,Incorporation,SS0405,Startup India Recognition,Article,Startup India benefits explained,4249,5253,128,93,28,Yes,6000
+SP025,2026-08-26,LinkedIn,Incorporation,SS0405,Startup India Recognition,Reel,DPIIT recognition in 6 steps,4179,4814,143,51,15,No,0
+SP070,2026-08-28,LinkedIn,Bookkeeping,SS0301,Monthly Books Closure,Story,Why your books fall behind every quarter,1965,3136,74,34,4,No,0
+SP081,2026-08-28,Facebook,GST,SS0202,Monthly / Quarterly GST Returns,Reel,GSTR-3B filing checklist,2202,2659,104,59,15,No,0
+SP046,2026-08-29,Instagram,Taxation,SS0105,NRI Taxation & Capital Gains,Static Post,NRI selling property in India,2641,3671,108,64,20,No,0
+SP039,2026-08-31,LinkedIn,Taxation,SS0101,Income Tax Return Filing,Reel,New vs Old regime: which saves more,3711,5522,147,86,28,Yes,2000
+SP075,2026-09-05,Instagram,Bookkeeping,SS0303,Payroll Processing,Story,Payroll and PF without the headache,1288,1862,51,25,3,No,0
+SP040,2026-09-06,Instagram,Taxation,SS0101,Income Tax Return Filing,Carousel,Filing with two Form 16s,5982,10216,208,141,42,No,0
+SP038,2026-09-07,Instagram,Taxation,SS0101,Income Tax Return Filing,Static Post,Filing with two Form 16s,3675,4312,117,59,7,Yes,2000
+SP024,2026-09-10,Instagram,Incorporation,SS0405,Startup India Recognition,Reel,DPIIT recognition in 6 steps,3561,4563,90,51,14,No,0
+SP061,2026-09-10,LinkedIn,Virtual CFO,SS0601,Budgeting & Forecasting,Carousel,Cash runway: the only number that matters,3968,5698,346,167,56,No,0
+SP062,2026-09-10,Facebook,Virtual CFO,SS0601,Budgeting & Forecasting,Static Post,Cash runway: the only number that matters,2679,4515,198,128,33,Yes,4000
+SP063,2026-09-12,LinkedIn,Virtual CFO,SS0601,Budgeting & Forecasting,Story,A budget your team will use,2865,4844,244,148,15,No,0
+SP041,2026-09-13,Facebook,Taxation,SS0101,Income Tax Return Filing,Static Post,New vs Old regime: which saves more,3092,3966,118,80,19,No,0
+SP002,2026-09-15,LinkedIn,Incorporation,SS0401,Private Limited / OPC Registration,Static Post,Documents you need to incorporate,6447,11181,213,96,35,Yes,7500

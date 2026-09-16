@@ -1,0 +1,31 @@
+sub_service_id,service_id,service_category,sub_service_name,base_annual_fee_inr,is_recurring,is_entry_service,is_statutory,relevance_trigger
+SS0101,SVC01,Taxation,Income Tax Return Filing,12000,Yes,Yes,Yes,All assessees with taxable income
+SS0102,SVC01,Taxation,Advance Tax Planning,15000,Yes,No,Yes,"Tax liability above Rs 10,000 in a year"
+SS0103,SVC01,Taxation,TDS / TCS Compliance,18000,Yes,No,Yes,Any business making specified payments
+SS0104,SVC01,Taxation,Income Tax Notices & Assessments,25000,No,Yes,No,On receipt of a departmental notice
+SS0105,SVC01,Taxation,NRI Taxation & Capital Gains,22000,Yes,Yes,No,NRI status or asset sale in the year
+SS0201,SVC02,GST,GST Registration,6000,No,Yes,Yes,Turnover crosses the registration threshold
+SS0202,SVC02,GST,Monthly / Quarterly GST Returns,24000,Yes,Yes,Yes,Any GST-registered entity
+SS0203,SVC02,GST,GST Annual Return & Reconciliation,20000,Yes,No,Yes,GST turnover above Rs 2 crore
+SS0204,SVC02,GST,E-invoicing & E-way Bill Setup,14000,No,No,Yes,Turnover above the e-invoicing threshold
+SS0205,SVC02,GST,ITC Review & GST Litigation Support,30000,No,No,No,ITC mismatch or departmental notice
+SS0301,SVC03,Bookkeeping,Monthly Books Closure,36000,Yes,No,No,Any entity maintaining books
+SS0302,SVC03,Bookkeeping,Financial Statement Preparation,20000,Yes,No,Yes,All companies and LLPs annually
+SS0303,SVC03,Bookkeeping,Payroll Processing,30000,Yes,No,No,Entities with salaried employees
+SS0304,SVC03,Bookkeeping,Accounts Payable / Receivable,24000,Yes,No,No,Businesses with credit cycles
+SS0305,SVC03,Bookkeeping,Bank Reconciliation,12000,Yes,No,No,Any entity with active bank accounts
+SS0401,SVC04,Incorporation,Private Limited / OPC Registration,18000,No,Yes,No,New business formation
+SS0402,SVC04,Incorporation,LLP Registration,14000,No,Yes,No,New partnership formation
+SS0403,SVC04,Incorporation,ROC Annual Filings,16000,Yes,No,Yes,"Every registered company and LLP, every year"
+SS0404,SVC04,Incorporation,DIN / DSC & Statutory Registers,8000,Yes,No,Yes,All companies with directors
+SS0405,SVC04,Incorporation,Startup India Recognition,20000,No,No,No,Eligible DPIIT startups
+SS0501,SVC05,Audit,Statutory Audit,60000,Yes,No,Yes,All private limited companies
+SS0502,SVC05,Audit,Tax Audit u/s 44AB,45000,Yes,No,Yes,Business turnover above Rs 1 crore
+SS0503,SVC05,Audit,Internal Audit,55000,Yes,No,No,Larger entities seeking process control
+SS0504,SVC05,Audit,Stock & Inventory Audit,35000,Yes,No,No,Inventory-heavy businesses
+SS0505,SVC05,Audit,Due Diligence,75000,No,No,No,"Fundraise, acquisition, or investor entry"
+SS0601,SVC06,Virtual CFO,Budgeting & Forecasting,60000,Yes,No,No,Growth-stage businesses planning ahead
+SS0602,SVC06,Virtual CFO,Business Valuation,50000,No,Yes,No,"Fundraise, ESOP, or transfer of shares"
+SS0603,SVC06,Virtual CFO,Fund-raise Support,90000,No,Yes,No,Companies raising external capital
+SS0604,SVC06,Virtual CFO,Investor & MIS Reporting,72000,Yes,No,No,Companies with external investors
+SS0605,SVC06,Virtual CFO,Working Capital Planning,48000,Yes,No,No,Businesses with a stretched cash cycle
