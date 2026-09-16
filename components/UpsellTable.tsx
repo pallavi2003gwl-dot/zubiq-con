@@ -7,7 +7,7 @@ import { Chip } from "@/components/Chip";
 import { AiPanel } from "@/components/AiPanel";
 import { KpiCard } from "@/components/KpiCard";
 import { formatINR, formatDate } from "@/lib/format";
-import { buildUpsellDataContext } from "@/lib/upsellContext";
+import { buildUpsellPrompt } from "@/lib/upsellContext";
 import type { UpsellOpportunity, UnderpenetratedFlag } from "@/lib/upsell";
 import type { Client, Engagement, SubServiceAlignmentRow } from "@/lib/types";
 
@@ -87,8 +87,8 @@ export function UpsellTable({
     },
   ];
 
-  const dataContext = selected
-    ? buildUpsellDataContext(selected, clients, engagements, subServiceAlignment, avgSubServices)
+  const defaultPrompt = selected
+    ? buildUpsellPrompt(selected, clients, engagements, subServiceAlignment, avgSubServices)
     : "";
 
   return (
@@ -170,7 +170,11 @@ export function UpsellTable({
               <dd className="text-slate-900">{selected.subService.relevance_trigger}</dd>
             </dl>
 
-            <AiPanel module="upsell" dataContext={dataContext} />
+            <AiPanel
+              key={`${selected.client.client_id}-${selected.subService.sub_service_id}-${selected.ruleId}`}
+              module="upsell"
+              defaultPrompt={defaultPrompt}
+            />
           </div>
         ) : null}
       </Drawer>

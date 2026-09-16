@@ -3,7 +3,11 @@ import { buildClientServiceSummaries } from "./serviceMix";
 import type { UpsellOpportunity } from "./upsell";
 import type { Client, Engagement, SubServiceAlignmentRow } from "./types";
 
-export function buildUpsellDataContext(
+// Builds the FULL default prompt that pre-fills the Upsell panel's textarea —
+// framing, the client/opportunity data, and the instruction, all as one editable
+// block. There is no separate hidden system prompt: whatever ends up in this box
+// (edited or not) is exactly what gets sent to Gemini.
+export function buildUpsellPrompt(
   opportunity: UpsellOpportunity,
   clients: Client[],
   engagements: Engagement[],
@@ -32,7 +36,9 @@ export function buildUpsellDataContext(
   const firmPenetration = subServiceAlignment.find((r) => r.sub_service_id === subService.sub_service_id);
   const tenureMonths = opportunity.tenureMonths;
 
-  return `CLIENT
+  return `You're a business development advisor to ZubiQ Consultants, a Chartered Accountancy firm in Noida, India serving founders, family businesses, and NRIs across Delhi-NCR. Here's an existing client and a service they don't currently hold:
+
+CLIENT
 Name: ${client.client_name}
 Industry: ${client.industry}
 Entity type: ${client.entity_type}
@@ -64,5 +70,7 @@ PEER BENCHMARK
 Among ZubiQ clients with entity type ${client.entity_type} and turnover band ${client.annual_turnover_band}:
 ${peers.length} clients, ${peersWithService.length} hold ${subService.sub_service_name}
 Firm-wide penetration of ${subService.sub_service_name}: ${firmPenetration?.penetration_pct ?? 0}% of active clients
-Average sub-services per client across the firm: ${avgSubServices.toFixed(1)} of 30`;
+Average sub-services per client across the firm: ${avgSubServices.toFixed(1)} of 30
+
+Recommend how to approach this client about the missing service. Keep it practical and specific to their situation, and ground every point in the data above — don't invent facts about the client. Where the service is statutory, lead with the compliance obligation and exposure, not the fee; where it isn't, lead with the benefit instead. Use Indian CA terminology (ITR, GST, ROC, tax audit u/s 44AB, etc.) and Indian rupee formatting. Keep the tone advisory, not salesy — assume the relationship owner will send the message directly. Return four short sections: PITCH ANGLE, TALKING POINTS, SUGGESTED OPENING MESSAGE, and TIMING.`;
 }

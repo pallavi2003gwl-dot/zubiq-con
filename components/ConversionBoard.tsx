@@ -7,7 +7,7 @@ import { AiPanel } from "@/components/AiPanel";
 import { KpiCard } from "@/components/KpiCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { formatINR, formatDate } from "@/lib/format";
-import { buildConversionDataContext } from "@/lib/conversionContext";
+import { buildConversionPrompt } from "@/lib/conversionContext";
 import type { Bucket, ScoredLead } from "@/lib/leadScore";
 import type { CategoryAlignmentRow, Lead } from "@/lib/types";
 
@@ -63,7 +63,7 @@ export function ConversionBoard({
   const partial = useMemo(() => eligible.filter((s) => s.lead.chatbot_completion === "Partial"), [eligible]);
   const switching = useMemo(() => eligible.filter((s) => s.isSwitching), [eligible]);
 
-  const dataContext = selected ? buildConversionDataContext(selected, allLeads, categoryAlignment) : "";
+  const defaultPrompt = selected ? buildConversionPrompt(selected, allLeads, categoryAlignment) : "";
 
   return (
     <div className="flex flex-col gap-8">
@@ -205,7 +205,7 @@ export function ConversionBoard({
               </div>
             ) : null}
 
-            <AiPanel module="conversion" dataContext={dataContext} />
+            <AiPanel key={selected.lead.lead_id} module="conversion" defaultPrompt={defaultPrompt} />
           </div>
         ) : null}
       </Drawer>

@@ -1,10 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { SYSTEM_INSTRUCTIONS, DEFAULT_INSTRUCTIONS, type AiModule } from "@/lib/aiPrompts";
+import type { AiModule } from "@/lib/aiPrompts";
 
 interface GenerateRequestBody {
   module?: AiModule;
-  dataContext?: string;
-  instruction?: string;
+  prompt?: string;
 }
 
 interface GeminiPart {
@@ -15,6 +14,7 @@ interface GeminiResponse {
 }
 
 const TIMEOUT_MS = 25000;
+const KNOWN_MODULES = new Set<AiModule>(["upsell", "conversion", "alignment"]);
 
 export async function POST(req: NextRequest) {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -32,24 +32,22 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid request body." }, { status: 400 });
   }
 
-  const { module, dataContext, instruction } = body;
-  if (!module || !(module in SYSTEM_INSTRUCTIONS) || !dataContext) {
-    return NextResponse.json({ error: "Request is missing the module or data context." }, { status: 400 });
+  const { module, prompt } = body;
+  if (!module || !KNOWN_MODULES.has(module)) {
+    return NextResponse.json({ error: "Request is missing a valid module." }, { status: 400 });
+  }
+  if (!prompt || !prompt.trim()) {
+    return NextResponse.json({ error: "The prompt is empty. Write what you want, then generate." }, { status: 400 });
   }
 
-  const finalInstruction = instruction?.trim() ? instruction.trim() : DEFAULT_INSTRUCTIONS[module];
   const model = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
-  // Never pass temperature/top_p/top_k — deprecated on current Gemini models (CLAUDE.md rule 7).
+  // No system_instruction and no temperature/top_p/top_k (deprecated on current
+  // Gemini models, per project rule). Exactly what's in the panel's textarea is
+  // exactly what gets sent — nothing hidden, nothing appended server-side.
   const payload = {
-    system_instruction: { parts: [{ text: SYSTEM_INSTRUCTIONS[module] }] },
-    contents: [
-      {
-        role: "user",
-        parts: [{ text: `${dataContext}\n\n---\n\nINSTRUCTION:\n${finalInstruction}` }],
-      },
-    ],
+    contents: [{ role: "user", parts: [{ text: prompt }] }],
   };
 
   const controller = new AbortController();
@@ -95,7 +93,7 @@ export async function POST(req: NextRequest) {
 
   if (!text.trim()) {
     return NextResponse.json(
-      { error: "Gemini returned an empty response. Try again, or adjust the instruction." },
+      { error: "Gemini returned an empty response. Try again, or adjust the prompt." },
       { status: 502 }
     );
   }

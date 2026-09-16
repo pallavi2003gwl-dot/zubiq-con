@@ -2,7 +2,11 @@ import { formatDate, formatINR } from "./format";
 import type { CategoryAlignment, SubServiceAlignment } from "./alignment";
 import type { SocialPost } from "./types";
 
-export function buildAlignmentDataContext(
+// Builds the FULL default prompt that pre-fills the Alignment panel's textarea —
+// framing, the per-category/sub-service data, and the instruction, all as one
+// editable block. No separate hidden system prompt; the panel sends this text
+// as-is (edited or not).
+export function buildAlignmentPrompt(
   categories: CategoryAlignment[],
   subServices: SubServiceAlignment[],
   posts: SocialPost[],
@@ -40,7 +44,9 @@ export function buildAlignmentDataContext(
     )
     .join("\n");
 
-  return `PERIOD: ${formatDate(windowStart)} to ${formatDate(windowEnd)}
+  return `You're a marketing strategist advising ZubiQ Consultants, a Chartered Accountancy firm in Noida, India, on its social media and advertising allocation. Here's the firm's social effort, inbound demand, and revenue by category over the period, with an alignment gap already computed:
+
+PERIOD: ${formatDate(windowStart)} to ${formatDate(windowEnd)}
 
 PER CATEGORY
 ${perCategory}
@@ -53,5 +59,7 @@ Total reach: ${totalReach}
 Total leads: ${totalLeads}
 Total active annual revenue: ${formatINR(totalRevenue)}
 Total ad spend: ${formatINR(totalSpend)}
-Average sub-services held per active client: ${avgSubServices.toFixed(1)} of 30`;
+Average sub-services held per active client: ${avgSubServices.toFixed(1)} of 30
+
+Analyse where social media effort doesn't match where revenue and demand actually are, and recommend what to change over the next quarter. Treat this as correlation, not attribution — there's no UTM or click-path tracking, so don't claim any post caused any lead. Recommendations must be executable by a small firm with no dedicated marketing team; assume limited budget and content capacity. When naming what to post about, name specific sub-services, never whole categories — "post about the GST annual return and advance tax planning" is useful, "post more about tax" is not. Return four short sections: KEY MISALIGNMENTS (2-3 biggest gaps with the number that proves it), CONTENT REALLOCATION (which sub-services to post more/less about, with a rough ratio), AD ANGLES (one per priority sub-service: audience, hook, objective), and WHAT TO MEASURE NEXT (3 metrics for the next 30 days).`;
 }
