@@ -11,7 +11,10 @@ const FIELD_LABELS: Record<string, string> = {
   notes: "Notes",
 };
 
-export function buildConversionDataContext(
+// Builds the FULL default prompt that pre-fills the Conversion panel's textarea —
+// framing, the lead/score data, and the instruction, all as one editable block.
+// No separate hidden system prompt; the panel sends this text as-is (edited or not).
+export function buildConversionPrompt(
   scored: ScoredLead,
   allLeads: Lead[],
   categoryAlignment: CategoryAlignmentRow[]
@@ -26,7 +29,9 @@ export function buildConversionDataContext(
 
   const catRow = categoryAlignment.find((r) => r.service_category === lead.service_category);
 
-  return `LEAD
+  return `You're a sales advisor to ZubiQ Consultants, a Chartered Accountancy firm in Noida, India. Here's an inbound lead with their enquiry details and a computed lead score:
+
+LEAD
 Contact: ${lead.contact_name}
 Company: ${lead.company_name && lead.company_name !== "-" ? lead.company_name : "Individual"}
 Industry: ${lead.industry ?? "Not captured"}
@@ -60,5 +65,7 @@ ${lead.sub_service_interest} leads: ${interestLeads.length} total, ${interestCon
 ${lead.service_category} category conversion rate: ${catRow?.conversion_rate_pct ?? 0}%
 
 FIELDS NOT CAPTURED
-${unfilledFields.length > 0 ? unfilledFields.map((f) => FIELD_LABELS[f] ?? f).join(", ") : "none"}`;
+${unfilledFields.length > 0 ? unfilledFields.map((f) => FIELD_LABELS[f] ?? f).join(", ") : "none"}
+
+Build a follow-up plan to convert this lead. Be realistic about the stage they're at and how long they've been waiting — a lead untouched for three weeks needs a different opening than one from yesterday. Use the urgency and existing-CA fields: a deadline inside 15 days needs a call today, not a nurture sequence; a lead already working with another CA has a switching objection about continuity, not price. If FIELDS NOT CAPTURED is non-empty, the visitor abandoned the chatbot partway — ask about those gaps on the first call, and recommend a phone call rather than email, since these leads have never converted from email in the firm's data. Never quote a fee; the firm scopes and prices each engagement and offers a free first consultation within 48 hours — book that instead. Use Indian CA context and terminology throughout. Return four short sections: CHANNEL AND TIMING, LIKELY OBJECTION, FOLLOW-UP SEQUENCE (3 steps with day offsets), and DRAFT FIRST MESSAGE.`;
 }

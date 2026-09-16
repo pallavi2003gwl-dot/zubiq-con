@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { AlertCircle, Check, ChevronDown, ChevronRight, Copy, Loader2, Sparkles } from "lucide-react";
-import { DEFAULT_INSTRUCTIONS, type AiModule } from "@/lib/aiPrompts";
+import { AlertCircle, Check, Copy, Loader2, RotateCcw, Sparkles } from "lucide-react";
+import type { AiModule } from "@/lib/aiPrompts";
 import { parseAiSections } from "@/lib/parseAiOutput";
 
 const BUTTON_LABEL: Record<AiModule, string> = {
@@ -13,22 +13,31 @@ const BUTTON_LABEL: Record<AiModule, string> = {
 
 type PanelState = "idle" | "loading" | "error" | "result";
 
-export function AiPanel({ module, dataContext }: { module: AiModule; dataContext: string }) {
-  const [instruction, setInstruction] = useState(DEFAULT_INSTRUCTIONS[module]);
+// One fully editable prompt, pre-filled with a sensible default (data + instruction,
+// composed by the module's builder in lib/*Context.ts). There is no hidden system
+// prompt and no locked/read-only panel — whatever is in the textarea when Generate
+// is clicked is exactly what gets sent to Gemini, nothing appended server-side.
+//
+// When the underlying record can change (a different client/lead selected), the
+// caller must pass a `key` tied to that record's id so React remounts this
+// component with a fresh default — that's the React-recommended way to reset
+// state on a prop change, rather than syncing via an effect.
+export function AiPanel({ module, defaultPrompt }: { module: AiModule; defaultPrompt: string }) {
+  const [prompt, setPrompt] = useState(defaultPrompt);
   const [state, setState] = useState<PanelState>("idle");
   const [result, setResult] = useState("");
   const [error, setError] = useState("");
-  const [contextOpen, setContextOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
   async function handleGenerate() {
+    if (!prompt.trim()) return;
     setState("loading");
     setError("");
     try {
       const res = await fetch("/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ module, dataContext, instruction }),
+        body: JSON.stringify({ module, prompt }),
       });
       const json = await res.json();
       if (!res.ok) {
@@ -55,35 +64,35 @@ export function AiPanel({ module, dataContext }: { module: AiModule; dataContext
   }
 
   const sections = state === "result" ? parseAiSections(result) : [];
+  const isEdited = prompt !== defaultPrompt;
 
   return (
     <div className="flex flex-col gap-4 rounded-lg border border-slate-200 bg-white shadow-sm p-4">
       <div>
-        <button
-          type="button"
-          onClick={() => setContextOpen((v) => !v)}
-          className="flex items-center gap-1.5 text-xs font-medium text-slate-500 hover:text-slate-700"
-        >
-          {contextOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
-          Data context sent to the model (locked, read-only)
-        </button>
-        {contextOpen ? (
-          <pre className="mt-2 max-h-72 overflow-auto whitespace-pre-wrap rounded-md bg-slate-50 p-3 text-xs leading-relaxed text-slate-600">
-            {dataContext}
-          </pre>
-        ) : null}
-      </div>
-
-      <div>
-        <label className="text-xs font-medium text-slate-500" htmlFor={`instruction-${module}`}>
-          Instruction
-        </label>
+        <div className="flex items-center justify-between">
+          <label className="text-xs font-medium text-slate-500" htmlFor={`prompt-${module}`}>
+            Prompt — edit anything before generating, including the data
+          </label>
+          {isEdited ? (
+            <button
+              type="button"
+              onClick={() => {
+                setPrompt(defaultPrompt);
+                setState("idle");
+                setError("");
+              }}
+              className="flex items-center gap-1 text-xs text-slate-400 hover:text-navy-700"
+            >
+              <RotateCcw size={11} /> Reset to default
+            </button>
+          ) : null}
+        </div>
         <textarea
-          id={`instruction-${module}`}
-          value={instruction}
-          onChange={(e) => setInstruction(e.target.value)}
-          rows={3}
-          className="mt-1 w-full rounded-lg border border-slate-200 p-2.5 text-sm text-slate-800 transition-shadow focus:border-navy-600 focus:outline-none focus:ring-4 focus:ring-navy-100"
+          id={`prompt-${module}`}
+          value={prompt}
+          onChange={(e) => setPrompt(e.target.value)}
+          rows={14}
+          className="mt-1 w-full resize-y rounded-lg border border-slate-200 p-2.5 font-mono text-xs leading-relaxed text-slate-800 transition-shadow focus:border-navy-600 focus:outline-none focus:ring-4 focus:ring-navy-100"
         />
       </div>
 
@@ -91,7 +100,7 @@ export function AiPanel({ module, dataContext }: { module: AiModule; dataContext
         <button
           type="button"
           onClick={handleGenerate}
-          disabled={state === "loading"}
+          disabled={state === "loading" || !prompt.trim()}
           className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-navy-700 to-navy-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm shadow-navy-900/25 transition-all hover:from-navy-800 hover:to-navy-700 hover:shadow-md hover:shadow-navy-900/30 disabled:cursor-not-allowed disabled:opacity-60 disabled:shadow-none"
         >
           {state === "loading" ? (

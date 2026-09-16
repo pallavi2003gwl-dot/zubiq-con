@@ -8,7 +8,7 @@ import {
 } from "@/lib/queries";
 import { classifyCategoryAlignment, classifySubServiceAlignment } from "@/lib/alignment";
 import { averageServicePenetration } from "@/lib/serviceMix";
-import { buildAlignmentDataContext } from "@/lib/alignmentContext";
+import { buildAlignmentPrompt } from "@/lib/alignmentContext";
 import { SectionHeading } from "@/components/SectionHeading";
 import { AttentionRevenueBar } from "@/components/charts/AttentionRevenueBar";
 import { EngagementLeadsScatter } from "@/components/charts/EngagementLeadsScatter";
@@ -42,7 +42,7 @@ export default async function AlignmentPage() {
     subServicesByCategory.set(s.service_category, list);
   }
 
-  const dataContext = buildAlignmentDataContext(
+  const defaultPrompt = buildAlignmentPrompt(
     categories,
     subServices,
     posts,
@@ -90,7 +90,7 @@ export default async function AlignmentPage() {
 
       <section>
         <SectionHeading title="Generate social & ad strategy" />
-        <AiPanel module="alignment" dataContext={dataContext} />
+        <AiPanel module="alignment" defaultPrompt={defaultPrompt} />
       </section>
     </div>
   );
